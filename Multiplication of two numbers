@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 int main()
 {
@@ -14,5 +15,7 @@ int main()
     
     multi= no1 * no2;
     printf("Multiplication of given number is =%d",multi);
+
+    getch();
     return 0;
 }
