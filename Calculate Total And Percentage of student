@@ -1,8 +1,9 @@
 #include<stdio.h>
+#include<conio.h>
 
 int main()
 {
-    int m1 = 0,m2 = 0,m3 = 0,total;
+    int m1 = 0,m2 = 0,m3 = 0,Total;
     float per;
     printf("Enter marks of all subjects :");
     
@@ -15,11 +16,12 @@ int main()
     printf("\nEnter marks of Hindi :");
     scanf("%d",&m3);
     
-    total = m1 + m2 + m3;
-    printf("\nTotal marks of all subjects :%d",total);
+    Total = m1 + m2 + m3;
+    printf("\nTotal marks of all subjects =%d",total);
     
-    per = (float)total/3;
-    printf("\nPercentage of student=%d",per);
-    
+    per = (float)Total/3;
+    printf("\nPercentage of student =%f",per);
+
+    getch();
     return 0;
 }
