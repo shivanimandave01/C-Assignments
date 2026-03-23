@@ -3,12 +3,12 @@
 
 int main()
 {
-char ch='\0';
+    char ch='\0';
 
-for(ch='H';ch<='N';ch++)
-{
-    printf("\n %c",ch);
-}
-getch();
-return 0;
+    for(ch='H';ch<='N';ch++)
+    {
+        printf("\n %c",ch);
+    }
+    getch();
+    return 0;
 }
