@@ -4,13 +4,13 @@
 
 int main()
 {
-char ch='\0';
+    char ch='\0';
 
-printf(" \n Enter the Character =");
-scanf("%c",&ch);
+    printf(" \n Enter the Character =");
+    scanf("%c",&ch);
 
-printf("\nASCII Value of %c is = %d",ch,ch);
+    printf("\nASCII Value of %c is = %d",ch,ch);
 
-getch();
-return 0;
+    getch();
+    return 0;
 }
