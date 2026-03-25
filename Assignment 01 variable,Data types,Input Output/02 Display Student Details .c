@@ -4,54 +4,54 @@
 
 int main()
 {
-char Grade='\0';
-int RNO = 0;
-int Total = 0;
-float Per = 0;
-char Name[40] = "\0",City[20] = "\0",Course[20]="\0";
+    char Grade='\0';
+    int RNO = 0;
+    int Total = 0;
+    float Per = 0;
+    char Name[40] = "\0",City[20] = "\0",Course[20]="\0";
 
- printf("\n Enter Roll Number =");
- scanf("%d",&RNO);
+    printf("\n Enter Roll Number =");
+    scanf("%d",&RNO);
 
- fflush(stdin);
+    fflush(stdin);
 
- printf("\n Enter Name =");
- gets(Name);
+    printf("\n Enter Name =");
+    gets(Name);
 
- fflush(stdin);
+    fflush(stdin);
 
- printf("\n Enter Course =");
- gets(Course);
+    printf("\n Enter Course =");
+    gets(Course);
 
- fflush(stdin);
+    fflush(stdin);
 
- printf("\n Enter City=");
- gets(City);
+    printf("\n Enter City=");
+    gets(City);
 
- printf("\nEnter total marks =");
- scanf("%d",&Total);
+    printf("\nEnter total marks =");
+    scanf("%d",&Total);
 
- printf("\nEnter percentage =");
- scanf("%d",&Per);
+    printf("\nEnter percentage =");
+    scanf("%d",&Per);
 
- fflush(stdin);
+    fflush(stdin);
 
- printf("Enter Grade");
- Grade = getche();
+    printf("Enter Grade");
+    Grade = getche();
 
- printf("\n Enter a key to move Ahead.......");
+    printf("\n Enter a key to move Ahead.......");
 
- getch();
+    getch();
 
- printf("\n Entered Students details are =\n");
- printf("\n Roll No  :%d",RNO);
- printf("\n Name     :%s",Name);
- printf("\n City     :%s",City);
- printf("\n Course   :%s",Course);
- printf("\n Total    :%d",Total);
- printf("\n percentage:%d",Per);
- printf("\n Grade     :%c",Grade);
+    printf("\n Entered Students details are =\n");
+    printf("\n Roll No  :%d",RNO);
+    printf("\n Name     :%s",Name);
+    printf("\n City     :%s",City);
+    printf("\n Course   :%s",Course);
+    printf("\n Total    :%d",Total);
+    printf("\n percentage:%d",Per);
+    printf("\n Grade     :%c",Grade);
 
- getch();
- return 0;
- }
+    getch();
+    return 0;
+}
