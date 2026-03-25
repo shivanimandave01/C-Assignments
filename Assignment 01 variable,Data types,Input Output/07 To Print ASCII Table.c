@@ -1,14 +1,15 @@
 #include<stdio.h>
+#include<conio.h>
 
 int main()
 {
-int i=0;
+    int i=0;
 
-while (i <= 127)
-{
-    printf(" \n%d   :   %c",i,i);
-    i++;
-}
-return 0;
+    while (i <= 127)
+    {
+        printf(" \n%d   :   %c",i,i);
+        i++;
+    }
+    return 0;
 }
     
