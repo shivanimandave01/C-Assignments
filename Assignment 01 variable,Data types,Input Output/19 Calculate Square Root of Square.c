@@ -6,15 +6,15 @@
 
 int main()
 {
- int Number,Sqr_rt;
+    int Number,Sqr_rt;
 
- printf("\n\tEnter any Number = ");
- scanf("%d",&Number);
+    printf("\n\tEnter any Number = ");
+    scanf("%d",&Number);
 
- Sqr_rt= sqrt(Number);
+    Sqr_rt= sqrt(Number);
 
- printf("\n\tSquare Root of %d is = %d",Number,Sqr_rt);
+    printf("\n\tSquare Root of %d is = %d",Number,Sqr_rt);
 
- getch();
- return 0;
+    getch();
+    return 0;
  }
