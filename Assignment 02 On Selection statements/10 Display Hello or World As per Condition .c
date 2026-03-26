@@ -10,11 +10,11 @@ int main()
     
     if(N <= 10)
     { 
-    printf("\n Hello");
+        printf("\n Hello");
     }
     else 
     {
-    printf("\n World");
+        printf("\n World");
     }
     getch();
     return 0;
