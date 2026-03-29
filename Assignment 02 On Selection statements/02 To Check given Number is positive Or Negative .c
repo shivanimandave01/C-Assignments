@@ -10,11 +10,11 @@ int main()
     
     if(N>0)
     { 
-    printf("\nThe given number is positive");
+        printf("\nThe given number is positive");
     }
     else 
     {
-    printf("\nThe given number is negative");
+        printf("\nThe given number is negative");
     }
     getch();
     return 0;
