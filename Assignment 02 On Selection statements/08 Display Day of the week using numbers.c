@@ -10,35 +10,35 @@ int main()
 
  if(Number == 1)
  {
- printf("\nThe day of the week is : Monday");
+     printf("\nThe day of the week is : Monday");
  }
  else if(Number == 2)
  {
- printf("\nThe day of the week is : Tuesday");
+     printf("\nThe day of the week is : Tuesday");
  }
  else if(Number == 3)
  {
- printf("\nThe day of the week is : Wednesday");
+     printf("\nThe day of the week is : Wednesday");
  }
  else if(Number == 4)
  {
- printf("\nThe day of the week is : Thursday");
+     printf("\nThe day of the week is : Thursday");
  }
 else if(Number == 5)
  {
- printf("\nThe day of the week is : Friday");
+     printf("\nThe day of the week is : Friday");
  }
  else if(Number == 6)
  {
- printf("\nThe day of the week is : Saturday");
+     printf("\nThe day of the week is : Saturday");
  }
  else if(Number == 7)
  {
- printf("\nThe day of the week is : Sunday");
+     printf("\nThe day of the week is : Sunday");
  }
  else
  {
- printf("\nGiven number is Default");}
+     printf("\nGiven number is Default");}
  
  getch();
  return 0;
