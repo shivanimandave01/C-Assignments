@@ -13,11 +13,11 @@ int main()
     
     if(N1 > N2)
     { 
-    printf("\nThe Greater Number Is =%d",N1);
+        printf("\nThe Greater Number Is =%d",N1);
     }
     else
     {
-    printf("\nThe Greater Number Is =%d",N2);
+        printf("\nThe Greater Number Is =%d",N2);
     }
     
     getch();
