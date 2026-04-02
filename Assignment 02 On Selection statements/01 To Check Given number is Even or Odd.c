@@ -8,13 +8,13 @@ int main()
     printf("\nEnter value of number  :");
     scanf("%d",&N);
     
-    if(N%2==0)
+    if(N % 2 == 0)
     { 
-    printf("\nGiven Number is Even");
+        printf("\nGiven Number is Even");
     }
     else 
     {
-    printf("\nGiven number is Odd");
+        printf("\nGiven number is Odd");
     }
     getch();
     return 0;
