@@ -78,7 +78,7 @@ int main()
 
         break;
 
-    case 'default':
+      default:
         printf("\n Invalid Operator");
         break;
 
