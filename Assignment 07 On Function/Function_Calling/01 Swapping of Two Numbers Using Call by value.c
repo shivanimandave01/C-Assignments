@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<conio.h>
+
+void swap(int,int);
+
+int main()
+{
+    int N1 = 0,N2 = 0;
+
+    printf("\n Enter 1st Number : ");
+    scanf("%d",&N1);
+
+    printf("\n Enter 2nd Number : ");
+    scanf("%d",&N2);
+
+    printf("\n Before Swapping 1st Number = %d ,2nd Number = %d",N1,N2);
+
+    swap(N1,N2);
+
+    printf("\n After Swapping 1st Number = %d ,2nd Number = %d",N1,N2);
+
+    getch();
+    return 0;
+
+}
+void swap(int N1,int N2)
+{
+    int Temp = 0;
+
+    Temp = N1;
+    N1 = N2;
+    N2 = Temp;
+}
